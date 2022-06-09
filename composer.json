@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": ">=7.3",
-        "nesk/rialto": "^1.2.0",
-        "psr/log": "^1.0",
+        "nesk/rialto": "dev-dev",
+        "psr/log": "^1.0|^2.0|^3.0",
         "vierbergenlars/php-semver": "^3.0.2"
     },
     "require-dev": {
@@ -40,6 +40,7 @@
             "Nesk\\Puphpeteer\\Tests\\": "tests/"
         }
     },
+    
     "scripts": {
         "post-install-cmd": "npm install",
         "test": "./vendor/bin/phpunit"
