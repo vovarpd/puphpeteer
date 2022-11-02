@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "sietzekeuning/rialto": "*",
-        "psr/log": "^3.0",
+        "vovarpd/rialto": "@dev",
+        "psr/log": "^1.0|^3.0",
         "vierbergenlars/php-semver": "^3.0.2"
     },
     "require-dev": {
@@ -33,7 +33,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/sietzekeuning/rialto"
+            "url": "https://github.com/vovarpd/rialto"
         }
     ],
     "autoload": {
